@@ -8,6 +8,7 @@ import MainaLayouts from "./layout/MainaLayouts";
 import AuthLayout from "./layout/AuthLayout";
 import Login from "./pages/auth/Login";
 import YupLogin from "./pages/auth/YupLogin";
+import AddDel from "./pages/AddDel";
 function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<MainaLayouts />}>
             <Route index element={<Home />} />
             <Route path="shop" element={<Shop />} />
+            <Route path="delete" element={<AddDel />} />
           </Route>
 
           <Route path="/auth" element={<AuthLayout />}>

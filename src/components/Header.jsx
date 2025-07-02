@@ -13,6 +13,7 @@ export default function Header() {
             <Link to="/shop" className="text-gray-700 hover:text-blue-600">Shop</Link>
             <Link to="/auth/yuplogin" className="text-gray-700 hover:text-blue-600">yup</Link>
             <Link to="/auth/login" className="text-gray-700 hover:text-blue-600">Log in</Link>
+            <Link to="/delete" className="text-gray-700 hover:text-blue-600">Delete</Link>
           </nav>
         </div>
       </header>
